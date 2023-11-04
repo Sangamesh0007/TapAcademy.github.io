@@ -1,0 +1,59 @@
+.course-head h1{
+    color: rgb(0, 107, 128);
+    margin-top: 150px;
+}
+.course-head pre{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.course-fieldset{
+    background-image: linear-gradient(to bottom,rgb(255, 255, 255), #7743DB);   
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    animation-name: course-ani;
+    animation-duration: 5s;
+}
+@keyframes course-ani {
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
+}
+.course-fieldset legend{
+    border: 2px solid rgb(17, 0, 128);
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 12px;
+}
+.course-fieldset div h1{
+    color: darkblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    animation-name: course;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes course{
+    0%   {color: navy;}
+    25%  {color: rgb(166, 0, 255)(149, 0, 255);}
+    50%  {color: rgb(255, 0, 225);}
+    75%  {color: rgb(122, 0, 128);}
+    100% {color: navy;}
+}
+.course-fieldset div button{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    height: 45px;
+    width: 100px;
+    background-image: linear-gradient(to right,rgb(237, 75, 102), rgb(255, 132, 0));
+    color: aliceblue;
+    border-radius: 5px;
+    border: none;
+}
+.course-fieldset div button:hover{
+    background-image: linear-gradient(to left,lightgreen, yellow);
+    color: navy;
+    box-shadow: 5px 5px 45px yellowgreen;
+}
+.course-fieldset pre{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+hr{
+    border: 2px solid rgb(255, 255, 255);
+}

@@ -1,0 +1,27 @@
+.cont-div{
+    background-color: #273b54;
+}
+.contact-fieldset{
+    margin-top: 130px;
+    background-image: url(./cont-img.jpg);
+    background-size: 1520px;
+    animation-name: contact;
+    animation-duration: 5s;
+}
+@keyframes contact {
+    0%   {margin-top: -378px;}
+    100% {margin-top: 130px;}
+}
+.contact-fieldset legend{
+    background-color: whitesmoke;
+    border:2px solid navy;
+    font-style: italic;
+}
+.contact-fieldset h3, label{
+    color: rgb(228, 228, 228);
+}
+.contact-iframe{
+    padding: 55px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #273b54,#7743DB);
+}

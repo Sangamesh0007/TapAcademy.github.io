@@ -1,0 +1,32 @@
+.boot-fieldset{
+    margin-top: 135px;
+    background-image: linear-gradient(to bottom, #088395,#35A29F);
+    border-bottom: 2px solid rgb(37, 119, 142);
+}
+.boot-fieldset legend{
+    border: 1px solid navy;
+    background-color: whitesmoke;
+}
+.boot-fieldset .head{
+    color: rgb(183, 237, 103);
+}
+.boot-fieldset2{
+    border: none;
+    background-image: linear-gradient(to bottom, #35A29F,#7743DB);
+}
+.boot-btn{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    height: 45px;
+    width: 150px;
+    background-image: linear-gradient(to right,rgb(51, 0, 255),#21e8e1);
+    color: aliceblue;
+    border-radius: 5px;
+    border: none;
+    border:2px solid navy;
+}
+.boot-btn:hover{
+    background-image: linear-gradient(to left,#a9f01b, #14f610);
+    color: navy;
+    box-shadow: 10px 10px 25px yellowgreen;
+}

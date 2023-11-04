@@ -1,0 +1,178 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: #DDF2FD;
+    border: none;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+.phone{
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black
+}
+.nav-bar{
+   position: fixed;
+   background-color: white;
+   z-index: 1;
+   width: 100%;
+   padding-top: 20px;
+   top: 7.6%;
+   border-bottom: 2px solid #C3ACD0;
+   
+}
+.nav-options{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav-options:hover{  
+        color:rgb(54, 176, 224);
+        padding-bottom: 6px;
+        border-bottom: 3px solid #3d57ff;
+}
+.nav-try-button{
+    text-decoration: none;
+    color: rgb(0, 68, 95);
+    border: 1px solid rgb(56, 0, 154);
+    padding: 10px;
+    border-radius: 5%;
+}
+.nav-try-button:hover{
+   color: gold;
+   background-color: #164863;
+   box-shadow: 1px 1px 10px 2px rgb(36, 90, 134);
+   
+}
+.home-view{
+    margin-top: 155px;
+    background-image: linear-gradient(to left, rgb(144, 86, 224),rgb(30, 59, 161));
+    
+}
+.home-view legend{
+   background-color: whitesmoke;
+   border: 1px solid navy;
+   box-shadow: 15px 15px 12px rgb(19, 19, 58);
+}
+.simplify, .fieldset i, .fieldset2 i, .fieldset3 i, .team i, .course-fieldset legend h1, .boot-fieldset legend, .placement-fieldset legend h1,
+.placement-fieldset2 i, .contact-fieldset legend{
+    font-style: italic; 
+    color: goldenrod;
+    animation-name: simplify;   
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes simplify{
+    0%{color: gold;}
+    50% {color:black;}
+    100%{color:gold;}
+}
+.home-view img{
+    margin-left: 275px;
+}
+.home-view pre{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 55px;
+}
+.iframe{
+    margin-left: 155px;
+    margin-bottom: 25px;
+    box-shadow: 30px 30px 25px;
+}
+.home-view button{
+    height: 55px;
+    width: 250px;
+    margin-bottom: 20px;
+    margin-top: -55px;
+    font-size: large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:rgb(105, 141, 247);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.home-view button:hover{
+    border: 2px solid rgb(18, 229, 240);
+    background-color: rgb(18, 18, 144);
+}
+.home-view a{
+    margin-left: 75px;
+}
+.fieldset{
+    margin-top: 55px;
+    border: none;
+
+}
+.fieldset pre{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.fieldset2{
+    background-image: linear-gradient(to top, rgb(13, 153, 204),white);
+    margin-top: 55px;
+    border-bottom: none;
+}
+.fieldset2 pre{
+    text-shadow: 2px 5px 15px rgb(19, 91, 191);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+.fieldset3{
+    background-image: linear-gradient(to bottom, rgb(13, 153, 204), #C3ACD0);
+    border-top: 2px solid skyblue;
+    border-bottom: 2px solid rgb(218, 196, 193);
+}
+.team{
+    padding-top: 15px; 
+    background-image: linear-gradient(#C3ACD0,#7743DB);
+}
+.team img{
+    margin: 35px;
+    box-shadow: 15px 15px 30px;
+    margin-bottom: 35px;
+}
+.sir1:hover, .sir2:hover, .sir3:hover{
+    box-shadow: none;
+    transition:all 0.3s ease-in-out;
+    margin-top: -10%;
+    transform: scale(1.1);
+}
+.team img{
+    border: 5px solid tomato;
+}
+.foot-table th, tr, td{
+    padding: 20px;
+}
+footer{
+    border-top: 3px solid rgb(158, 100, 224);
+    padding-bottom: 15px;
+    color: white;
+    background-color: #7743DB;
+    background-image: linear-gradient(to bottom, #7743DB, rgb(115, 26, 87));
+}
+footer a{
+     color: white;   
+     text-decoration: none; 
+}
+.foot-location{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.foot-table tr a:hover{
+   color: greenyellow;   
+}
+.foot-social a{
+    filter: grayscale(100%);
+}
+.foot-social a:hover{
+   filter: none;
+}
+.foot-social img:hover{
+    transform: rotatez(360deg);
+    transition: 0.5s ease-in;
+}

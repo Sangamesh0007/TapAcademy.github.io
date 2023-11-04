@@ -1,0 +1,64 @@
+.dsa-fieldset{
+    margin-top: 125px;
+    border: none;
+    border-bottom: 2px solid navy;
+    background-image: linear-gradient(to bottom, #DFCCFB,#D0BFFF);
+}
+.dsa-fieldset table{
+    margin-left: 55px;
+    animation: table;
+    animation-duration: 5s;
+}
+@keyframes table {
+    0%   {margin-top: -378px;}
+    100% {margin-top: 0px;}
+}
+.dsa-fieldset pre{
+    font-family:'Times New Roman', Times, serif;
+}
+.dsa-fieldset div{
+    color: rgb(22, 100, 107);
+}
+.dsa-section{
+    background-color: #D0BFFF;
+    padding: 55px;
+}
+.dsa-section pre{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.dsa-section h1{
+    margin: 0%;
+    animation: dsa-y;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes dsa-y {
+    0%{color: rgb(255, 22, 255);}
+    100%{color: rgb(3, 3, 255);}
+}
+
+.section2{
+    background-image: linear-gradient(to bottom,#D0BFFF,#BEADFA );
+    padding: 25px;
+}
+.section2 table pre{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.dsa-footer{
+    background-image: linear-gradient(to bottom, #BEADFA, #7132e6);
+}
+.dsa-btn{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 15px;
+        height: 45px;
+        width: 250px;
+        background-image: linear-gradient(to right,rgb(75, 180, 237), rgb(225, 0, 255));
+        color: aliceblue;
+        border-radius: 5px;
+        border: 2px solid rgb(202, 94, 202);
+}
+.dsa-btn:hover{
+    background-image: linear-gradient(to left,lightgreen, yellow);
+    color: navy;
+    box-shadow: 5px 5px 10px rgb(92, 72, 94);
+}

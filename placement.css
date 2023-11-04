@@ -1,0 +1,21 @@
+.placement-fieldset{
+    margin-top: 135px;
+    background-color: #F8E8EE;
+    border-bottom: 3px solid hotpink;
+}
+.placement-fieldset legend{
+    border: 2px solid navy;
+    background-color: whitesmoke;
+    font-style: italic;
+    box-shadow: 5px 5px 5px ;
+}
+.placement-fieldset2{
+ background-color: #FDCEDF;
+ padding: 25px;
+ border: none;
+ border-bottom: 3px solid hotpink;
+}
+.placement-fieldset3{
+    background-color: #F2BED1;
+    padding: 25px;
+}
